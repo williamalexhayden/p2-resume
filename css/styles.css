@@ -1,0 +1,15 @@
+/* Your Website Styles */
+body {
+	background: #eee;
+}
+
+
+div {
+	margin-top: -60px;	x 
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
