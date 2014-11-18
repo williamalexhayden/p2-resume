@@ -1,0 +1,114 @@
+/*"if" statement for screen and min-width*/
+@media screen and (max-width:386px){
+	div.fl{
+	float:left;
+	}
+	section{
+		width:100%;
+	}
+	ul{
+		padding: 0 0 0 0;
+	}
+	h1{
+		font-size: 2.0em;
+		text-align: center;
+	}
+	h2{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	nav ul li{
+		font-size: .8em;
+		padding: 0 0px 0 0px;
+	}
+	.introP{
+		margin: 0% 0% 0 0%;
+		width: 100%;
+	}
+}
+	/*////////////////////////////////////////
+	////////////2 collumn layout//////////////
+	////////////////////////////////////////*/
+@media screen and (min-width: 387px){
+	
+		section{
+			width: 100%;
+		}
+		p{
+			width: 60%
+		}
+		h2{
+			text-align: center;
+			font-size: 2em;
+		}
+		h1{
+			text-align: center;
+			font-size: 2.5em;
+		}
+		nav ul li{
+			font-size: 1em;
+			padding: 0 0px 0 0px;
+		}
+		ul{
+			padding: 0 0 0 0;
+		}
+		.introP p{
+			text-align: center;
+			width: 100%;
+			margin: 0 0;
+		}
+		.introP{
+			margin: 0% 10% 0 10%;
+			width: 80%;
+		}
+}
+	/*////////////////////////////////////////
+	/////////////////header///////////////////
+	////////////////////////////////////////*/
+@media screen and (min-width: 1000px){
+
+		h1{
+			font-size: 3em;
+			text-align: right;
+			float:right;
+			margin-right:10%; 
+			width: 90%
+		}
+		h2{
+			font-size: 2.5em;
+			text-align: right;
+			float: right;
+			margin-right: 10%;
+			width: 90%
+		}
+		section	{
+			width: 50%;
+			float:right;
+		}
+		p{
+			width: 50%;
+		}
+
+		nav{
+			background: none; 
+			font-size: 1.125em;
+			margin-right: 0%;
+			width: 100%; 
+		}
+		ul{
+			padding: 0 0 0 0;
+		}
+		nav ul li{
+			width:20%;
+			padding:0 0px 0 0px;
+			text-align: center;
+		}
+		.introP p{
+			text-align: left;
+			float:right;
+			margin: 0% 0% 0 10%;
+			padding-bottom: 1em;
+			border-bottom: 2px solid #d9d9d9;
+			width: 50%;
+		}
+}

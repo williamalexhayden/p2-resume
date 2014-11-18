@@ -1,3 +1,37 @@
+section{
+	width: 50%;
+}
+#wrapper{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 10%;
+}
+div.fl{
+	float: right;
+}
+footer{
+	float: left;
+	position: absolute; bottom:0;
+}
+p{
+	margin: 1em 1em;
+	font-color: white;
+	font-family: 'Lato', sans-serif; font-weight: 300;
+	text-align: left;
+}
+div {
+	display: block;
+}
+nav{
+
+}
+aside {
+	width: 80%;
+	margin: 0% 10%;
+}
+ul{
+	margin-top: 0em;
+}
 body {
 	background: #232323 url("../img/1-yourself.jpg");
 	background-size: cover;
@@ -7,7 +41,7 @@ body {
 nav li{
 	display: inline-block;
 	display: left; 
-	padding: 0 4em 0 4em;
+	padding: 0 2em 0 2em;
 	color: white; text-shadow: black 0.1em 0.1em 0.2em;
 	font-family: 'Lato', sans-serif; font-weight:300;
 	font-size: 1em;
@@ -17,6 +51,21 @@ nav ul li a{
 	color: yellow;
 	margin: 1em;
 }
+nav ul li a:hover{
+	color:white;
+}
+.introP p{
+	font-size: 1.2em;
+}
+.worklink a{
+	text-decoration: none;
+	color: #C9C9C9;
+	font-style: italic;
+  	transition: all 0.3s ease;
+}
+.worklink a:hover{
+		color:yellow;
+}
 a { 
 	text-decoration: none;
 	color: white;
@@ -24,36 +73,39 @@ a {
   	transition: all 0.3s ease;
 }
 a:hover{
-	color:white;
+	color:yellow;
 }
-
 h1{
 	color: white; text-shadow: black 0.1em 0.1em 0.2em;
 	font-family: 'Lato', sans-serif;
 	text-align: right;
 	margin-bottom: 0em;
-	margin-top: 1em; 
 	font-size: 3em;
+	transition: all 0.3s ease;
 }
 h2{
 	font-family: 'Lato', sans-serif; font-weight:300;
 	color: #C9C9C9; text-shadow: black 0.1em 0.1em 0.2em;
 	text-align: right;
 	margin-top: 0em; 
-	margin-bottom: 50px;
+	margin-bottom: .2em;
 	font-size: 2.5em;
+	transition: all 0.3s ease;
 }
 h3{
 	font-family: 'Lato', sans-serif; font-weight:400;
-	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+	color: yellow; text-shadow: black 0.1em 0.1em 0.2em;
 	margin-top: 1em; 
 	margin-bottom: 1em;
+	width: 50%
 }
 h4{
 	font-family: 'Lato', sans-serif; font-weight:300;
 	color: white;
 	font-size: 1em;
-	text-align: center;
+	text-align: left;
+	margin-bottom: .1em;
+	width: 100%
 }
 li{
 	font-family: 'Lato', sans-serif; font-weight:300;
@@ -61,29 +113,15 @@ li{
 	font-size: .8em;
 	font-style: italic;
 	text-align: left;
-}
-
-p{
-	margin: 1em 1em;
-	font-color: white;
-	font-family: 'Lato', sans-serif; font-weight: 300;
-	text-align: left;
-}
-nav{
-
-}
-div {
-
-}
-aside {
-  width: 100%;
+	margin-left: 2%;
+	text-decoration: none;
 }
 .sidebar {
-  background: #232323;
-  color: #47495d;
-  padding: 0em 0 3.25em 0;
-  text-align: center;
-  border-radius: 0 0 20px 20px;
+	background: #232323;
+	color: #47495d;
+	padding: 1em 0 .1em 0;
+	text-align: center;
+	border-radius: 0 0 20px 20px;
 }
 /* Show Grid */
 .showgrid {
