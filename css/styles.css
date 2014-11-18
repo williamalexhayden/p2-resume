@@ -6,28 +6,17 @@ section{
 	margin: 0 auto;
 	padding: 0 10%;
 }
-div.fl{
-	float: right;
-}
-footer{
-	float: left;
-	position: absolute; bottom:0;
-}
 p{
 	margin: 1em 1em;
 	font-color: white;
 	font-family: 'Lato', sans-serif; font-weight: 300;
 	text-align: left;
 }
+div.fl{
+	float: right;
+}
 div {
 	display: block;
-}
-nav{
-
-}
-aside {
-	width: 80%;
-	margin: 0% 10%;
 }
 ul{
 	margin-top: 0em;
@@ -116,6 +105,10 @@ li{
 	margin-left: 2%;
 	text-decoration: none;
 }
+footer{
+	float: left;
+	position: absolute; bottom:0;
+}
 .sidebar {
 	background: #232323;
 	color: #47495d;
@@ -126,4 +119,8 @@ li{
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+aside {
+	width: 80%;
+	margin: 0% 10%;
 }
