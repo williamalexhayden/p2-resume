@@ -21,7 +21,10 @@ ul{
 	margin-top: 0em;
 }
 body {
-	background: #232323 url("../img/1-yourself.jpg");
+	background: #232323 url("../img/1-yourself.jpg") no-repeat top right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-color: #232323;
 	color: #C9C9C9; text-shadow: black 0.1em 0.1em 0.2em;
