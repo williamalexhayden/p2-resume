@@ -1,10 +1,9 @@
-section{
-	width: 50%;
+.container{
+	max-width: 100%;
 }
-#wrapper{
-	max-width: 1920px;
-	margin: 0 auto;
-	padding: 0 10%;
+section{
+	max-width: 100%;
+	padding: 0% 5% 0% 5%;
 }
 p{
 	margin: 1em 1em;
@@ -16,7 +15,7 @@ div.fl{
 	float: right;
 }
 div {
-	display: block;
+	display:inline-block;
 }
 ul{
 	margin-top: 0em;
@@ -27,10 +26,52 @@ body {
 	background-color: #232323;
 	color: #C9C9C9; text-shadow: black 0.1em 0.1em 0.2em;
 }
+h1{
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	text-align: right;
+	margin-bottom: 0em;
+	font-size: 3em;
+	transition: all 0.3s ease;
+}
+h2{
+	font-family: 'Lato', sans-serif; font-weight:300;
+	color: #C9C9C9; text-shadow: black 0.1em 0.1em 0.2em;
+	text-align: right;
+	margin-top: 0em; 
+	margin-bottom: .2em;
+	font-size: 2.5em;
+	transition: all 0.3s ease;
+}
+h3{
+	font-family: 'Lato', sans-serif; font-weight:400;
+	color: yellow; text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 1em; 
+	margin-bottom: 1em;
+}
+h4{
+	font-family: 'Lato', sans-serif; font-weight:300;
+	color: white;
+	font-size: 1em;
+	text-align: left;
+	margin-bottom: .1em;
+}
+h5{
+	color: #D8D25D;
+	margin-bottom: .5em;
+}
+li{
+	font-family: 'Lato', sans-serif; font-weight:300;
+	color: #C9C9C9;
+	font-size: .8em;
+	font-style: italic;
+	text-align: left;
+	margin-left: 2%;
+	text-decoration: none;
+}
 nav li{
 	display: inline-block;
 	display: left; 
-	padding: 0 2em 0 2em;
 	color: white; text-shadow: black 0.1em 0.1em 0.2em;
 	font-family: 'Lato', sans-serif; font-weight:300;
 	font-size: 1em;
@@ -64,55 +105,16 @@ a {
 a:hover{
 	color:yellow;
 }
-h1{
-	color: white; text-shadow: black 0.1em 0.1em 0.2em;
-	font-family: 'Lato', sans-serif;
-	text-align: right;
-	margin-bottom: 0em;
-	font-size: 3em;
-	transition: all 0.3s ease;
-}
-h2{
-	font-family: 'Lato', sans-serif; font-weight:300;
-	color: #C9C9C9; text-shadow: black 0.1em 0.1em 0.2em;
-	text-align: right;
-	margin-top: 0em; 
-	margin-bottom: .2em;
-	font-size: 2.5em;
-	transition: all 0.3s ease;
-}
-h3{
-	font-family: 'Lato', sans-serif; font-weight:400;
-	color: yellow; text-shadow: black 0.1em 0.1em 0.2em;
-	margin-top: 1em; 
-	margin-bottom: 1em;
-	width: 50%
-}
-h4{
-	font-family: 'Lato', sans-serif; font-weight:300;
-	color: white;
-	font-size: 1em;
-	text-align: left;
-	margin-bottom: .1em;
-	width: 100%
-}
-li{
-	font-family: 'Lato', sans-serif; font-weight:300;
-	color: #C9C9C9;
-	font-size: .8em;
-	font-style: italic;
-	text-align: left;
-	margin-left: 2%;
-	text-decoration: none;
-}
+
 footer{
-	float: left;
-	position: absolute; bottom:0;
+    position: relative;
+    left: 1em;
+    bottom: 1em;
 }
 .sidebar {
 	background: #232323;
 	color: #47495d;
-	padding: 1em 0 .1em 0;
+	padding: 1em 5% .1em 5%;
 	text-align: center;
 	border-radius: 0 0 20px 20px;
 }
@@ -120,7 +122,10 @@ footer{
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+section.introP{
+	float: right;
+}
 aside {
-	width: 80%;
+	max-width: 100%;
 	margin: 0% 10%;
 }

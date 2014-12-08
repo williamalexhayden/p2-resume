@@ -1,10 +1,20 @@
 /*"if" statement for screen and min-width*/
+@media screen and (max-width: 565px){
+	nav ul li{
+		padding: 0 4% 0 4%;
+	}
+}
 @media screen and (max-width:386px){
 	div.fl{
-	float:left;
+	float:center;
 	}
-	section{
-		width:100%;
+	h3{
+		text-align: left;
+		font-size: 2.0em;
+		width: 100%;
+	}
+	h4{
+		font-size: 1.5em;
 	}
 	ul{
 		padding: 0 0 0 0;
@@ -19,96 +29,145 @@
 	}
 	nav ul li{
 		font-size: .8em;
-		padding: 0 0px 0 0px;
+		padding: 0 1% 0 1%;
 	}
 	.introP{
-		margin: 0% 0% 0 0%;
+		margin: 0% 0% 0% 0%;
 		width: 100%;
 	}
-}
-	/*////////////////////////////////////////
-	////////////2 collumn layout//////////////
-	////////////////////////////////////////*/
-@media screen and (min-width: 387px){
+	.introP p{
+		text-align: center;
+		margin-left: 0;
+	}
+	body{
+		background: #232323 url("");
+	}
+	footer{
+		max-width: 90%;
+	}
+	footer p{
+		text-align: center;
+	}
 	
-		section{
-			width: 100%;
-		}
-		p{
-			width: 60%
-		}
-		h2{
-			text-align: center;
-			font-size: 2em;
-		}
-		h1{
-			text-align: center;
-			font-size: 2.5em;
-		}
-		nav ul li{
-			font-size: 1em;
-			padding: 0 0px 0 0px;
-		}
-		ul{
-			padding: 0 0 0 0;
-		}
-		.introP p{
-			text-align: center;
-			width: 100%;
-			margin: 0 0;
-		}
-		.introP{
-			margin: 0% 10% 0 10%;
-			width: 80%;
-		}
 }
-	/*////////////////////////////////////////
-	/////////////////header///////////////////
-	////////////////////////////////////////*/
+
+@media screen and (min-width: 387px){
+	section{
+		width: 90%;
+	}
+	h2{
+		text-align: center;
+		font-size: 2em;
+	}
+	h1{
+		text-align: center;
+		font-size: 2.5em;
+	}
+/*	nav ul li{
+		font-size: 1em;
+		padding: 0 1% 0 1%;
+	}*/
+	ul{
+		padding: 0 0 0 0;
+	}
+	.introP p{
+		text-align: center;
+		width: 100%;
+		margin: 0 0;
+	}
+	.introP{
+		margin: 0% 10% 0 10%;
+		width: 80%;
+	}
+	.hist{
+		max-width: 50%;
+		display: inline-block;
+	}
+		aside {
+		margin: 0% 5%;
+	}
+}
+@media screen and (min-width: 497px){
+	.hist{
+		max-width:65%;
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 550px){
+	.hist{
+		max-width: 60%;
+		display: inline-block;
+	}
+	div.fl{
+		float:right;
+	}
+}
+
 @media screen and (min-width: 1000px){
+	
+	h1{
+		font-size: 3em;
+		text-align: right;
+		float:right;
+		margin-right:5%; 
+		width: 90%
+	}
+	h2{
+		font-size: 2.5em;
+		text-align: right;
+		float: right;
+		margin-right: 5%;
+		width: 90%
+	}
+	.introP p{
+		text-align: left;
+		margin-right: 10%;
+		float:right;
+		padding-bottom: 1em;
+		padding-top: .8em;
+		border-bottom: 2px solid #d9d9d9; border-top: 2px solid #d9d9d9;
+	}
+	.introP{
+		width: 100%;
+	}
+	section	{
+		max-width: 65%;
+		float:right;
+	}
+	.hist{
+		max-width: 60%;
+		display: inline-block;
+	}
+	nav{
+		background: none; 
+		font-size: 1.125em;
+		width: 100%; 
+	}
+	ul{
+		padding: 0 0 0 0;
+	}
+	nav ul li{
+		width:20%;
+		padding:0 0px 0 0px;
+		text-align: center;
+	}
+	aside {
+		margin: 0% 5%;
+	}
+}
 
-		h1{
-			font-size: 3em;
-			text-align: right;
-			float:right;
-			margin-right:10%; 
-			width: 90%
-		}
-		h2{
-			font-size: 2.5em;
-			text-align: right;
-			float: right;
-			margin-right: 10%;
-			width: 90%
-		}
-		section	{
-			width: 50%;
-			float:right;
-		}
-		p{
-			width: 50%;
-		}
-
-		nav{
-			background: none; 
-			font-size: 1.125em;
-			margin-right: 0%;
-			width: 100%; 
-		}
-		ul{
-			padding: 0 0 0 0;
-		}
-		nav ul li{
-			width:20%;
-			padding:0 0px 0 0px;
-			text-align: center;
-		}
-		.introP p{
-			text-align: left;
-			float:right;
-			margin: 0% 0% 0 10%;
-			padding-bottom: 1em;
-			border-bottom: 2px solid #d9d9d9;
-			width: 50%;
-		}
+@media screen and (min-width: 1200px){
+	aside {
+		margin: 0% 60px;
+	}
+	section{
+		max-width: 40%;
+	}
+	.hist{
+		max-width: 70%;
+		display: inline-block;
+	}
+	.introP p{
+		max-width: 100%;
+	}
 }
